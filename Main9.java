@@ -1,9 +1,11 @@
 package by.htp.les01.main;
+
 import java.util.Scanner;
+
 public class Main9 {
-	//9. Составить программу, которая определит по трем введенным сторонам, является ли
-	//данный треугольник равносторонним
-	public static void main (String[] args) {
+	// 9. Составить программу, которая определит по трем введенным сторонам,
+	// является ли данный треугольник равносторонним
+	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Введите значение стороны a: ");
 		int a = scan.nextInt();
